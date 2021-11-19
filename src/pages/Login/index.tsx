@@ -2,10 +2,10 @@ import React from 'react';
 import { useAuth } from '../../contexts/auth';
 
 const Login: React.FC = () => {
-    const context = useAuth();
+    const { Login } = useAuth();
     
     function handleLogin() {
-        context.Login();
+        Login();
     }
 
     return (
