@@ -3,6 +3,8 @@ import Routes from './routes';
 
 import { AuthProvider } from './contexts/auth';
 
+import './styles/styles.css';
+
 function App() {
   return (
     <AuthProvider>
